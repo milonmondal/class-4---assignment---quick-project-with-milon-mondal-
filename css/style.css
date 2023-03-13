@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #3b506c;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    box-shadow: rgb(33 35 38 / 10%) 0px 15px 20px -5px;
+    padding: 0 0 5px 0;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    margin:auto
+}
+
+.logo{
+    width: 15%;
+    float: left;
+    padding-top: 8px;
+}
+.logo a{}
+.logo a img{
+    width: 120px;
+} 
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 23px;
+}
+nav ul li{
+    display: inline;
+    /* padding: 15px 20px; */
+} 
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 20px;
+    display: inline-block;
+    color: #3b506c;
+    font-weight: bold;
+}
+/* banner section starts */
+.banner-section{padding: 100px 0;background-color: #c7dde7;}
+.banner{width: 70%;margin: auto;text-align: center;}
+.banner h1{
+    font-size: 90px;
+    color: #3b506c;
+}
+.banner h1 span{
+    color: #0c66ff;
+}
+.banner p{}
+.banner img{}
+
+/* successful section */
+background-color{
+    background-color: azure;
+}
+.col-1-2{
+    width: 45%;
+    float: left;
+    padding: 35px;
+}
+.col-1-2 h2{
+    font-size: 60px;
+}
+.right{
+    text-align: right;
+}
+.client-number{
+    color: rgba(244, 25, 25, 0.79);
+}
+.col-1-2 p{} 
+
+/* blog section starts */
+.blog-section{}
+.blogs{
+    width: 33.33%;
+    float: left;
+    
+}
+.blog{
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111,
+     0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.blog img{
+    height: 300px;
+}
+.blog h3{}
+.blog p{} 
+
+/* footer section starts */
+footer{
+    padding: 50px;
+}
+.footer-items{
+    width: 25%;
+    float: left;
+    background-color: #8080801a;
+    border-radius: 10px;
+}
+.footer-content{
+    padding:25px;
+}
+.footer-content h3{
+
+font-size: 30px;
+
+color: #3b506c;
+}
+.footer-content li{
+    padding: 6px 0;
+    list-style: none;
+    font-size: 20px;
+}
+.footer-content li a{
+    text-decoration: none;
+} 
